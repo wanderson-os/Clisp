@@ -49,7 +49,7 @@
              E5 91 01 2F FF 8A E6 38 01 31 90 38 01 31 97 E7 38 01 31 90 38 01
              31 97 E8 38 01 31 90 38 01 31 97 E9 38 01 31 90 38 01 31 97 00 19
              01)
-       ("==============" "--------------" "1.. Funcionario" "2.. Filial"
+       ("==============" "--------------" "1.. Funcionário" "2.. Filial"
         "3.. Sair" "Escolha uma opção acima: " |COMMON-LISP-USER|::|OPCRUD| 1.
         |COMMON-LISP-USER|::|MAINFUNCIONARIO| 2.
         |COMMON-LISP-USER|::|MAINFILIAL| 3. "--------------" "     SAIR     "

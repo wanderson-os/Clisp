@@ -179,7 +179,10 @@
                     (format t "descricao               : ~d ~%" (Filial-descricao i))
                     (format t "Endereço               : ~d ~%" (Filial-endereco i))
                     (format t "Quantidade de departamentos : ~d ~%" (length (Filial-departamentos i)))
-                    (princ "=============================")(terpri)
+
+(if(>=(length(Filial-departamentos filial))1)
+(depFilial filial)
+)
                 )
                 (terpri)
             )
@@ -241,7 +244,27 @@
     (format t "descricao               : ~d ~%" (Filial-descricao filial))
     (format t "Endereço               : ~d ~%" (Filial-endereco filial))
     (format t "Quantidade de departamentos : ~d ~%" (length (Filial-departamentos filial)))
+    (terpri)
+
+(if(>=(length(Filial-departamentos filial))1)
+(depFilial filial)
+)
     (princ "=============================")(terpri)(terpri)
+)
+
+(defun depFilial(filial)
+(princ"=== Departamento(s) ===")
+(terpri)
+(terpri)
+    (setq deps (Filial-departamentos filial))
+
+   (dolist (i deps)
+
+    (format t "Departamento : ~d ~%" (Departamento-nome i))
+    (terpri)
+    )
+
+    (terpri)
 
 )
 
