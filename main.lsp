@@ -17,7 +17,7 @@
         (terpri)(terpri)
         (princ "==============") (terpri) 
         (princ "--------------") (terpri) 
-        (princ "1.. Funcionario") (terpri) 
+        (princ "1.. Funcionário") (terpri) 
         (princ "2.. Filial") (terpri) 
         (princ "3.. Sair") (terpri) 
         (princ "Escolha uma opção acima: ")(terpri)

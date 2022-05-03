@@ -183,6 +183,7 @@
             )
 
             ((= opdep 6)
+            
 
 (if (<= (length lDepartamentos) 0)
                 (princ "ERRO!!! Não há registros de departamentos cadastrados para essa filial!!")
